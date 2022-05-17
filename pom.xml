@@ -48,9 +48,9 @@
             <goal>update</goal>
           </goals>
          </execution>
-      </executions>
+      </executions> -->
         </plugin>
        </plugins>
-    </build> -->
+    </build> 
       
 </project>
