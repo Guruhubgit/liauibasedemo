@@ -7,16 +7,16 @@
     http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.6.xsd ">
 	
 
-    <changeSet  id="1"  author="testman">  
-        <createTable  tableName="testDemo">  
+    <changeSet  id="1"  author="guru">  
+        <createTable  tableName="emp">  
             <column  name="id"  type="int"  autoIncrement="true">  
                 <constraints  primaryKey="true"  nullable="false"/>  
             </column>  
-            <column  name="firstnameDemo"  type="varchar(50)"/>  
-            <column  name="lastnameDemo"  type="varchar(50)">  
+            <column  name="empfirstnameDemo"  type="varchar(50)"/>  
+            <column  name="emplastnameDemo"  type="varchar(50)">  
                 <constraints  nullable="false"/>  
             </column>  
-            <column  name="stateDemo"  type="char(2)"/>  
+            <column  name="empstate"  type="char(2)"/>  
         </createTable>  
     </changeSet> 
 
