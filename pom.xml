@@ -41,7 +41,7 @@
        <username>user</username>
        <password>user</password>
       </configuration>     
-      <executions>
+     <!-- <executions>
          <execution>
           <phase>process</phase>
           <goals>
@@ -51,6 +51,6 @@
       </executions>
         </plugin>
        </plugins>
-    </build>
+    </build> -->
       
 </project>
